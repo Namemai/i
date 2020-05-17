@@ -5967,11 +5967,11 @@ def bot(op):
                                 except BaseException:
                                     has1 = "NOT"
                                 if has == "OK":
-                                    sil = "Healty"
+                                    sil = "Healthy"
                                 else:
                                     sil = "Sick"
                                 if has1 == "OK":
-                                    sil1 = "Healty"
+                                    sil1 = "Healthy"
                                 else:
                                     sil1 = "Sick"
                                 cl.sendMessage(
@@ -5995,11 +5995,11 @@ def bot(op):
                                 except BaseException:
                                     has1 = "NOT"
                                 if has == "OK":
-                                    sil = "Healty"
+                                    sil = "Healthy"
                                 else:
                                     sil = "Sick"
                                 if has1 == "OK":
-                                    sil1 = "Healty"
+                                    sil1 = "Healthy"
                                 else:
                                     sil1 = "Sick"
                                 ki.sendMessage(
@@ -6023,11 +6023,11 @@ def bot(op):
                                 except BaseException:
                                     has1 = "NOT"
                                 if has == "OK":
-                                    sil = "Healty"
+                                    sil = "Healthy"
                                 else:
                                     sil = "Sick"
                                 if has1 == "OK":
-                                    sil1 = "Healty"
+                                    sil1 = "Healthy"
                                 else:
                                     sil1 = "Sick"
                                 kk.sendMessage(
@@ -6051,11 +6051,11 @@ def bot(op):
                                 except BaseException:
                                     has == "OK"
                                 if has == "OK":
-                                    sil = "Healty"
+                                    sil = "Healthy"
                                 else:
                                     sil = "Sick"
                                 if has1 == "OK":
-                                    sil1 = "Healty"
+                                    sil1 = "Healthy"
                                 else:
                                     sil1 = "Sick"
                                 kc.sendMessage(
@@ -6079,11 +6079,11 @@ def bot(op):
                                 except BaseException:
                                     has1 = "NOT"
                                 if has == "OK":
-                                    sil = "Healty"
+                                    sil = "Healthy"
                                 else:
                                     sil = "Sick"
                                 if has1 == "OK":
-                                    sil1 = "Healty"
+                                    sil1 = "Healthy"
                                 else:
                                     sil1 = "Sick"
                                 sw.sendMessage(

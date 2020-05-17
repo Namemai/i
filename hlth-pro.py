@@ -45,6 +45,7 @@ from thrift import transport, protocol, server
 from thrift.TRecursive import *
 from thrift.TSerialization import *
 from thrift.TMultiplexedProcessor import *
+from thrift.unverting import *
 import html5lib
 import requests
 import json

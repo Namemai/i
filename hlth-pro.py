@@ -5255,7 +5255,7 @@ def bot(op):
                                     pass
 
                         # QR GROUP
-                    elif cmd.startswith("protecturl:on "):
+                        elif cmd.startswith("protecturl:on "):
                             if msg._from in admin:
                                 separate = msg.text.split(" ")
                                 number = msg.text.replace(separate[0] + " ", "")

@@ -234,10 +234,10 @@ print("𐀀 BOT-4 = " + Cmid)
 print("𐀀 BOT-5 = " + Zmid)
 print("\n\n𐀀 HELLTERHEAD IS READY❗\n\n")
 
-creator = [""]
-owner = [""]
-admin = [""]
-staff = [""]
+creator = ["u46972f7c43e399c93cf49fad40ae7262"]
+owner = ["u46972f7c43e399c93cf49fad40ae7262"]
+admin = ["u46972f7c43e399c93cf49fad40ae7262"]
+staff = ["u46972f7c43e399c93cf49fad40ae7262"]
 DRE = [cl, ki, kk, kc, sw]
 ghost = [sw]
 Bots = [mid, Amid, Bmid, Cmid, Zmid]
@@ -360,7 +360,7 @@ wait = {
     "Respontag": "Yes, me!",
     "welcome": "welcome",
     "leave": "thanks for join, see you next time",
-    "comment": "𐀀 HELLTERHEAD\nもばんづ\nJust other people.\nIllustrator / Graphic Designer\nEast Java - ID\n\nline.me/ti/p/~mo-banzu",
+    "comment": "𐀀 HELLTERHEAD",
     "message": "Thanks for invite, let's be friend",
 }
 read = {
@@ -674,8 +674,6 @@ def help():
         + "• Menu:status\n"
         + "• Menu:message\n"
         + "• Menu:kicker\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage
@@ -704,8 +702,6 @@ def help1():
         + "• .Promo\n"
         + "• Sider [on|off]\n"
         + "• Hlth [on|off]\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage1
@@ -736,8 +732,6 @@ def help2():
         + "• Absen\n"
         + "• Respon\n"
         + "• Reject\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage2
@@ -760,8 +754,6 @@ def help3():
         + "• Talkban:on [contact]\n"
         + "• Untalkban:on [contact]\n"
         + "• Talkbanlist\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage3
@@ -781,8 +773,6 @@ def help4():
         + "• Setkey: [text]\n"
         + "• Key\n"
         + "• Resetkey\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage4
@@ -803,8 +793,6 @@ def help5():
         + "• Gurl\n"
         + "• Grouplist\n"
         + "• Grouplist[number]\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage5
@@ -831,8 +819,6 @@ def help6():
         + "• Contact staff / C:staff\n"
         + "• Contact bot / C:bot\n"
         + "• !Abort\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage6
@@ -856,8 +842,6 @@ def help7():
         + "• Autoleave [on|off]\n"
         + "• Warmode [on|off]\n"
         + "• Jointicket [on|off]\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage7
@@ -878,8 +862,6 @@ def help8():
         + "• Set respon: [text]\n"
         + "• Set leave: [text]\n"
         + "• Set welcome: [text]\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage8
@@ -895,8 +877,6 @@ def help9():
         + "• !Kick [pro]\n"
         + "• !Bye [self]\n"
         + "• !Kibar\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage9
@@ -920,9 +900,6 @@ def bot(op):
                     ):
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(
-                            op.param1, "Don't invite without my author!")
-                        cl.sendMessage(op.param1, "line.me/ti/p/~mo-banzu")
                         cl.leaveGroup(op.param1)
                     else:
                         cl.acceptGroupInvitation(op.param1)
@@ -1161,9 +1138,6 @@ def bot(op):
                         ):
                             cl.acceptGroupInvitation(op.param1)
                             ginfo = cl.getGroup(op.param1)
-                            cl.sendMessage(
-                                op.param1, "Don't invite without my author!")
-                            cl.sendMessage(op.param1, "line.me/ti/p/~mo-banzu")
                             cl.leaveGroup(op.param1)
                         else:
                             cl.acceptGroupInvitation(op.param1)
@@ -1178,9 +1152,6 @@ def bot(op):
                     ):
                         ki.acceptGroupInvitation(op.param1)
                         ginfo = ki.getGroup(op.param1)
-                        ki.sendMessage(
-                            op.param1, "Don't invite without my commander!")
-                        ki.sendMessage(op.param1, "line.me/ti/p/~mo-banzu")
                         ki.leaveGroup(op.param1)
                     else:
                         ki.acceptGroupInvitation(op.param1)
@@ -1195,9 +1166,6 @@ def bot(op):
                     ):
                         kk.acceptGroupInvitation(op.param1)
                         ginfo = kk.getGroup(op.param1)
-                        kk.sendMessage(
-                            op.param1, "Don't invite without my commander!")
-                        kk.sendMessage(op.param1, "line.me/ti/p/~mo-banzu")
                         kk.leaveGroup(op.param1)
                     else:
                         kk.acceptGroupInvitation(op.param1)
@@ -1212,9 +1180,6 @@ def bot(op):
                     ):
                         kc.acceptGroupInvitation(op.param1)
                         ginfo = kc.getGroup(op.param1)
-                        kc.sendMessage(
-                            op.param1, "Don't invite without my commander!")
-                        kc.sendMessage(op.param1, "line.me/ti/p/~mo-banzu")
                         kc.leaveGroup(op.param1)
                     else:
                         kc.acceptGroupInvitation(op.param1)
@@ -1336,7 +1301,7 @@ def bot(op):
                 cl.findAndAddContactsByMid(op.param1)
                 sendMention(op.param1, "Hi ", "thanks for invite me!")
                 cl.sendText(op.param1, wait["message"])
-                cl.sendContact(op.param1, "u20452d2a7b27a3536e1172e4c8d0a8b4")
+                cl.sendContact(op.param1, "u46972f7c43e399c93cf49fad40ae7262")
 
         if op.type == 19:
             if wait["protectkick"]:
@@ -2813,12 +2778,12 @@ def bot(op):
                                 if text.lower() == video:
                                     cl.sendVideo(msg.to, videos[video])
                         cmd = command(text)
-                        if cmd == "hlth on":
+                        if cmd == "bot on":
                             if msg._from in admin:
                                 wait["selfbot"] = True
                                 cl.sendText(msg.to, "「 ON 」\nBot diaktifkan")
 
-                        elif cmd == "hlth off":
+                        elif cmd == "bot off":
                             if msg._from in admin:
                                 wait["selfbot"] = False
                                 cl.sendText(
@@ -3286,7 +3251,7 @@ def bot(op):
                         elif cmd == "creator" or text.lower() == "owner":
                             if msg._from in admin:
                                 cl.sendText(
-                                    msg.to, "「 𐀀 HELLTERHEAD 」\nBy : DRE❗\nline.me/ti/p/~mo-banzu", )
+                                    msg.to, "「 𐀀 HELLTERHEAD 」\nBy : DRE❗\nline.me/ti/p/~mai0985mai", )
                                 ma = ""
                                 for i in creator:
                                     ma = cl.getContact(mid)
@@ -3527,7 +3492,7 @@ def bot(op):
                                         msg.to, "「 Resetkey 」\nSetkey mu telah direset")
 
                         # RESTART
-                        elif cmd == "!restart":
+                        elif cmd == "รี":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     cl.sendMessage(msg.to, "Restarting...")
@@ -3535,7 +3500,7 @@ def bot(op):
                                     os.execl(python3, python3, *sys.argv)
 
                         # RUNTIME
-                        elif cmd == "runtime":
+                        elif cmd == "ออน":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     eltime = time.time() - mulai
@@ -4004,7 +3969,7 @@ def bot(op):
                                         msg.to, "Nama diganti jadi " + string + "")
 
                         # MENTION
-                        elif msg.text in ["Tagall"]:
+                        elif msg.text in ["แทค"]:
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     group = cl.getGroup(msg.to)
@@ -4032,11 +3997,11 @@ def bot(op):
                                     )
 
                         # KICK ALL
-                        elif "!bye" in msg.text:
+                        elif "#!bye" in msg.text:
                             if msg._from in admin:
                                 if msg.toType == 2:
                                     print("BOOM❗")
-                                    _name = msg.text.replace("!bye", "")
+                                    _name = msg.text.replace("#!bye", "")
                                     gs = cl.getGroup(msg.to)
                                     gs = cl.getGroup(msg.to)
                                     gs = cl.getGroup(msg.to)
@@ -4097,7 +4062,7 @@ def bot(op):
                                                     break
 
                         # ABSEN
-                        elif cmd == "absen":
+                        elif cmd == "mybot":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     msg.contentType = 13
@@ -4147,7 +4112,7 @@ def bot(op):
                                     sw.getContact(msg.contentMetadata["mid"])
 
                         # REMOVE CHAT
-                        elif text.lower() == "!removechat":
+                        elif text.lower() == "ลบแชคคิก":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     try:
@@ -4166,7 +4131,7 @@ def bot(op):
                                     except BaseException:
                                         pass
 
-                        elif text.lower() == "?removechat":
+                        elif text.lower() == "ลบแชท":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     try:
@@ -4177,11 +4142,11 @@ def bot(op):
                                         pass
 
                         # KICKER
-                        elif "!kick" in msg.text:
+                        elif "#!kick" in msg.text:
                             if msg._from in admin:
                                 if msg.toType == 2:
                                     print("BOOM❗")
-                                    _name = msg.text.replace("!kick", "")
+                                    _name = msg.text.replace("#!kick", "")
                                     gs = cl.getGroup(msg.to)
                                     gs = ki.getGroup(msg.to)
                                     gs = kk.getGroup(msg.to)
@@ -4248,11 +4213,11 @@ def bot(op):
                                                 except Exception as e:
                                                     break
 
-                        elif cmd == "hellterhead!" or cmd == "hlth!":
+                        elif cmd == "ck" or cmd == "cek":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     start = time.time()
-                                    cl.sendMessage(msg.to, "[ 𐀀 HELLTERHEAD ]")
+                                    cl.sendMessage(msg.to, "[สถานะบอท]")
                                     elapsed_time = time.time()
                                     ki.sendMessage(
                                         msg.to, "READY❗".format(
@@ -4264,10 +4229,8 @@ def bot(op):
                                         msg.to, "READY❗".format(
                                             str(elapsed_time)))
                                     sw.sendMessage(msg.to, "DONE❗")
-                                    cl.sendMessage(
-                                        msg.to, "line.me/ti/p/~mo-banzu")
 
-                        elif cmd == "hlth:in":
+                        elif cmd == "in":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ki.leaveGroup(msg.to)
@@ -4292,25 +4255,23 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 ki.updateGroup(G)
                                 ki.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD IS READY❗")
+                                    msg.to, "READY❗")
                                 kk.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD IS READY❗")
+                                    msg.to, "READY❗")
                                 kc.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD IS READY❗")
+                                    msg.to, "READY❗")
                                 sw.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD IS READY❗")
+                                    msg.to, "READY❗")
 
-                        elif cmd == "hlth:out":
+                        elif cmd == "out":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
-                                cl.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD Squad has been pushed back!")
                                 ki.leaveGroup(msg.to)
                                 kk.leaveGroup(msg.to)
                                 kc.leaveGroup(msg.to)
                                 sw.leaveGroup(msg.to)
 
-                        elif cmd == "respon":
+                        elif cmd == "b":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     ki.sendMessage(msg.to, responsename1)
@@ -4319,7 +4280,7 @@ def bot(op):
                                     sw.sendMessage(msg.to, responsename4)
 
                         # BOT
-                        elif cmd == "antijs:stay":
+                        elif cmd == "js":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     try:
@@ -4328,7 +4289,7 @@ def bot(op):
                                     except BaseException:
                                         pass
 
-                        elif cmd == "!in":
+                        elif cmd == "มา":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     G = cl.getGroup(msg.to)
@@ -4347,7 +4308,7 @@ def bot(op):
                                     G.preventedJoinByTicket = True
                                     random.choice(DRE).updateGroup(G)
 
-                        elif cmd == "!out":
+                        elif cmd == "ออก":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     G = cl.getGroup(msg.to)
@@ -4356,7 +4317,7 @@ def bot(op):
                                     kc.leaveGroup(msg.to)
 
                         # ASSIST
-                        elif cmd == "assist1":
+                        elif cmd == "b1":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -4370,7 +4331,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 ki.updateGroup(G)
 
-                        elif cmd == "assist2":
+                        elif cmd == "b2":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -4384,7 +4345,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 kk.updateGroup(G)
 
-                        elif cmd == "assist3":
+                        elif cmd == "b3":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -4399,7 +4360,7 @@ def bot(op):
                                 kc.updateGroup(G)
 
                         # GHOST
-                        elif cmd == "ghost:in":
+                        elif cmd == "b4":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -4469,9 +4430,9 @@ def bot(op):
                                     cl.sendMessage(
                                         msg.to, "「Dinonaktifkan」\n" + msgs)
 
-                        elif "Warmode " in msg.text:
+                        elif "mod " in msg.text:
                             if msg._from in admin or msg._from in owner:
-                                spl = msg.text.replace("Warmode ", "")
+                                spl = msg.text.replace("mod ", "")
                                 if spl == "on":
                                     if msg.to in warmode:
                                         msgs = "Mode war berhasil diaktifkan!"
@@ -4496,7 +4457,7 @@ def bot(op):
                                         msg.to, "「Dinonaktifkan」\n" + msgs)
 
                         # REVIVE
-                        elif cmd == "revive":
+                        elif cmd == "เชค":
                             if msg._from in admin:
                                 try:
                                     cl.inviteIntoGroup(to, [""])
@@ -4903,7 +4864,7 @@ def bot(op):
                                     )
 
                         # GHOST KICKER
-                        elif "Kill! " in msg.text:
+                        elif "gk " in msg.text:
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     key = eval(msg.contentMetadata["MENTION"])
@@ -4931,7 +4892,7 @@ def bot(op):
                                             except BaseException:
                                                 pass
 
-                        elif "Kick! " in msg.text:
+                        elif "bk " in msg.text:
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     key = eval(msg.contentMetadata["MENTION"])
@@ -5322,7 +5283,7 @@ def bot(op):
                                                     wait["Talkblacklist"]))),
                                         )
 
-                        elif cmd == "banlist" or text.lower() == "banlist":
+                        elif cmd == "banlist" or text.lower() == "bc":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     if wait["blacklist"] == {}:
@@ -5363,7 +5324,7 @@ def bot(op):
                                                 contentType=13,
                                             )
 
-                        elif cmd == "clearban" or text.lower() == "clb":
+                        elif cmd == "clearban" or text.lower() == "cb":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     wait["blacklist"] = {}
@@ -5373,11 +5334,10 @@ def bot(op):
                                         msg.to, "Sukses membersihkan" + mc)
 
                         # LEAVE
-                        elif cmd == "?bye":
+                        elif cmd == "bye":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     G = cl.getGroup(msg.to)
-                                    cl.sendText(msg.to, "Bye! " + str(G.name))
                                     cl.leaveGroup(msg.to)
 
                         # RESPON TIME

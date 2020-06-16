@@ -112,10 +112,10 @@ print("𐀀 BOT-7 = " + Ymid)
 print("𐀀 BOT-8 = " + Zmid)
 print("\n\n𐀀 HELLTERHEAD IS READY❗\n\n")
 
-creator = [""]
-owner = [""]
-admin = [""]
-staff = [""]
+creator = ["u46972f7c43e399c93cf49fad40ae7262"]
+owner = ["u46972f7c43e399c93cf49fad40ae7262"]
+admin = ["u46972f7c43e399c93cf49fad40ae7262"]
+staff = ["u46972f7c43e399c93cf49fad40ae7262"]
 DRE = [cl, ki, kk, kc, kd, st, su, sw]
 ghost = [st, su, sw]
 Bots = [mid, Amid, Bmid, Cmid, Dmid, Xmid, Ymid, Zmid]

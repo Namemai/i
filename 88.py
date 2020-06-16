@@ -65,25 +65,25 @@ botStart = time.time()
 msg_dict = {}
 msg_dict1 = {}
 
-cl = LINE("modnew1@ymail4.com", "modnew0")
+cl = LINE("modnew1@ymail4.com","modnew0")
 cl.log("Auth Token : " + str(cl.authToken))
 
-ki = LINE("modcat885@ymail4.com", "014503377mod")
+ki = LINE("modcat885@ymail4.com","014503377mod")
 ki.log("Auth Token : " + str(ki.authToken))
 
-kk = LINE("modcat884@ymail4.com", "014503377mod")
+kk = LINE("modcat884@ymail4.com","014503377mod")
 kk.log("Auth Token : " + str(kk.authToken))
 
-kc = LINE("modcat881@ymail4.com", "014503377mod")
+kc = LINE("modcat881@ymail4.com","014503377mod")
 kc.log("Auth Token : " + str(kc.authToken))
 
-kd = LINE("modcat871@ymail4.com", "014503377mod")
+kd = LINE("modcat871@ymail4.com","014503377mod")
 kd.log("Auth Token : " + str(kd.authToken))
 
-st = LINE("modcat870@ymail4.com", "014503377mod")
+st = LINE("modcat870@ymail4.com","014503377mod")
 st.log("Auth Token : " + str(st.authToken))
 
-su = LINE("modcat869@ymail4.com", "014503377mod")
+su = LINE("modcat869@ymail4.com","014503377mod")
 su.log("Auth Token : " + str(su.authToken))
 
 sw = LINE("modcat868@ymail4.com", "014503377mod")

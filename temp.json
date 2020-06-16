@@ -47,7 +47,7 @@
     "responcallgc": true,
     "responpm": false,
     "restartBot": null,
-    "restartPoint": "c45040756c8074bff5a06c2e7c0b6a844",
+    "restartPoint": "u46972f7c43e399c93cf49fad40ae7262",
     "server": "VPS",
     "simsimi": [],
     "siriMode": [],
@@ -78,7 +78,7 @@
     "whitelist": {},
     "winvite": false,
     "wlc": [
-        "c45040756c8074bff5a06c2e7c0b6a844"
+        "u46972f7c43e399c93cf49fad40ae7262"
     ],
     "wwhitelist": false
 }

@@ -65,28 +65,28 @@ botStart = time.time()
 msg_dict = {}
 msg_dict1 = {}
 
-cl = LINE("EMAIL", "PASSWORD")
+cl = LINE("modnew1@ymail4.com", "modnew0")
 cl.log("Auth Token : " + str(cl.authToken))
 
-ki = LINE("EMAIL", "PASSWORD")
+ki = LINE("modcat885@ymail4.com", "014503377mod")
 ki.log("Auth Token : " + str(ki.authToken))
 
-kk = LINE("EMAIL", "PASSWORD")
+kk = LINE("modcat884@ymail4.com", "014503377mod")
 kk.log("Auth Token : " + str(kk.authToken))
 
-kc = LINE("EMAIL", "PASSWORD")
+kc = LINE("modcat881@ymail4.com", "014503377mod")
 kc.log("Auth Token : " + str(kc.authToken))
 
-kd = LINE("EMAIL", "PASSWORD")
+kd = LINE("modcat871@ymail4.com", "014503377mod")
 kd.log("Auth Token : " + str(kd.authToken))
 
-st = LINE("EMAIL", "PASSWORD")
+st = LINE("modcat870@ymail4.com", "014503377mod")
 st.log("Auth Token : " + str(st.authToken))
 
-su = LINE("EMAIL", "PASSWORD")
+su = LINE("modcat869@ymail4.com", "014503377mod")
 su.log("Auth Token : " + str(su.authToken))
 
-sw = LINE("EMAIL", "PASSWORD")
+sw = LINE("modcat868@ymail4.com", "014503377mod")
 sw.log("Auth Token : " + str(sw.authToken))
 
 poll = OEPoll(cl)
@@ -241,7 +241,7 @@ wait = {
     "Respontag": "Yes, me!",
     "welcome": "welcome",
     "leave": "thanks for join, see you next time",
-    "comment": "𐀀 HELLTERHEAD\nもばんづ\nJust other people.\nIllustrator / Graphic Designer\nEast Java - ID\n\nline.me/ti/p/~mo-banzu",
+    "comment": "𐀀 HELLTERHEAD\nもばんづ\nJust other people.\nIllustrator / Graphic Designer\nEast Java - ID\n\nline.me/ti/p/~mai0985mai",
     "message": "Thanks for invite, let's be friend",
 }
 read = {

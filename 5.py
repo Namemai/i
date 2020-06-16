@@ -360,8 +360,8 @@ wait = {
     "Respontag": "Yes, me!",
     "welcome": "welcome",
     "leave": "thanks for join, see you next time",
-    "comment": "𐀀 HELLTERHEAD\nもばんづ\nJust other people.\nIllustrator / Graphic Designer\nEast Java - ID\n\nline.me/ti/p/~mo-banzu",
-    "message": "Thanks for invite, let's be friend",
+    "comment": "HELLTERHEAD",
+    "message": "Thanks forinvitelet's be friend",
 }
 read = {
     "readPoint": {},
@@ -674,8 +674,6 @@ def help():
         + "• Menu:status\n"
         + "• Menu:message\n"
         + "• Menu:kicker\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage
@@ -704,8 +702,6 @@ def help1():
         + "• .Promo\n"
         + "• Sider [on|off]\n"
         + "• Hlth [on|off]\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage1
@@ -736,8 +732,6 @@ def help2():
         + "• Absen\n"
         + "• Respon\n"
         + "• Reject\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage2
@@ -760,8 +754,6 @@ def help3():
         + "• Talkban:on [contact]\n"
         + "• Untalkban:on [contact]\n"
         + "• Talkbanlist\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage3
@@ -781,8 +773,6 @@ def help4():
         + "• Setkey: [text]\n"
         + "• Key\n"
         + "• Resetkey\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage4
@@ -803,8 +793,6 @@ def help5():
         + "• Gurl\n"
         + "• Grouplist\n"
         + "• Grouplist[number]\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage5
@@ -831,8 +819,6 @@ def help6():
         + "• Contact staff / C:staff\n"
         + "• Contact bot / C:bot\n"
         + "• !Abort\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage6
@@ -856,8 +842,6 @@ def help7():
         + "• Autoleave [on|off]\n"
         + "• Warmode [on|off]\n"
         + "• Jointicket [on|off]\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage7
@@ -878,8 +862,6 @@ def help8():
         + "• Set respon: [text]\n"
         + "• Set leave: [text]\n"
         + "• Set welcome: [text]\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage8
@@ -890,13 +872,11 @@ def help9():
     key = key.title()
     helpMessage9 = (
         "\nMENU KICKER 🔻\n"
-        + "• Kick! [@]\n"
+        + "• bk [@]\n"
         + "• Kill! [@]\n"
         + "• !Kick [pro]\n"
-        + "• !Bye [self]\n"
+        + "• Bye [self]\n"
         + "• !Kibar\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
     )
 
     return helpMessage9
@@ -920,9 +900,7 @@ def bot(op):
                     ):
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(
-                            op.param1, "Don't invite without my author!")
-                        cl.sendMessage(op.param1, "line.me/ti/p/~mo-banzu")
+                        cl.sendMessage(op.param1, "line.me/ti/p/~mai065558mai")
                         cl.leaveGroup(op.param1)
                     else:
                         cl.acceptGroupInvitation(op.param1)
@@ -1161,9 +1139,7 @@ def bot(op):
                         ):
                             cl.acceptGroupInvitation(op.param1)
                             ginfo = cl.getGroup(op.param1)
-                            cl.sendMessage(
-                                op.param1, "Don't invite without my author!")
-                            cl.sendMessage(op.param1, "line.me/ti/p/~mo-banzu")
+                            cl.sendMessage(op.param1, "line.me/ti/p/~mai065558mai")
                             cl.leaveGroup(op.param1)
                         else:
                             cl.acceptGroupInvitation(op.param1)
@@ -1178,9 +1154,7 @@ def bot(op):
                     ):
                         ki.acceptGroupInvitation(op.param1)
                         ginfo = ki.getGroup(op.param1)
-                        ki.sendMessage(
-                            op.param1, "Don't invite without my commander!")
-                        ki.sendMessage(op.param1, "line.me/ti/p/~mo-banzu")
+                        ki.sendMessage(op.param1, "line.me/ti/p/~mai065558mai")
                         ki.leaveGroup(op.param1)
                     else:
                         ki.acceptGroupInvitation(op.param1)
@@ -1195,9 +1169,7 @@ def bot(op):
                     ):
                         kk.acceptGroupInvitation(op.param1)
                         ginfo = kk.getGroup(op.param1)
-                        kk.sendMessage(
-                            op.param1, "Don't invite without my commander!")
-                        kk.sendMessage(op.param1, "line.me/ti/p/~mo-banzu")
+                        kk.sendMessage(op.param1, "line.me/ti/p/~mai065558mai")
                         kk.leaveGroup(op.param1)
                     else:
                         kk.acceptGroupInvitation(op.param1)
@@ -1212,9 +1184,7 @@ def bot(op):
                     ):
                         kc.acceptGroupInvitation(op.param1)
                         ginfo = kc.getGroup(op.param1)
-                        kc.sendMessage(
-                            op.param1, "Don't invite without my commander!")
-                        kc.sendMessage(op.param1, "line.me/ti/p/~mo-banzu")
+                        kc.sendMessage(op.param1, "line.me/ti/p/~mai065558mai")
                         kc.leaveGroup(op.param1)
                     else:
                         kc.acceptGroupInvitation(op.param1)
@@ -1236,8 +1206,6 @@ def bot(op):
                         random.choice(DRE).kickoutFromGroup(
                             op.param1, [op.param2])
                         random.choice(DRE).inviteIntoGroup(op.param1, [Zmid])
-                        cl.sendMessage(
-                            op.param1, "Don't invite without permission!")
                     except BaseException:
                         try:
                             wait["blacklist"][op.param2] = True
@@ -1249,9 +1217,6 @@ def bot(op):
                                 op.param1, [op.param2])
                             random.choice(DRE).inviteIntoGroup(
                                 op.param1, [Zmid])
-                            ki.sendMessage(
-                                op.param1, "Don't invite without permission!"
-                            )
                         except BaseException:
                             try:
                                 wait["blacklist"][op.param2] = True
@@ -1264,8 +1229,6 @@ def bot(op):
                                 )
                                 random.choice(DRE).inviteIntoGroup(
                                     op.param1, [Zmid])
-                                kk.sendMessage(
-                                    op.param1, "Don't invite without permission!")
                             except BaseException:
                                 try:
                                     wait["blacklist"][op.param2] = True
@@ -1277,10 +1240,7 @@ def bot(op):
                                         op.param1, [op.param2]
                                     )
                                     random.choice(DRE).inviteIntoGroup(
-                                        op.param1, [Zmid]
-                                    )
-                                    kc.sendMessage(
-                                        op.param1, "Don't invite without permission!", )
+                                        op.param1, [Zmid])
                                 except BaseException:
                                     pass
 
@@ -1336,7 +1296,7 @@ def bot(op):
                 cl.findAndAddContactsByMid(op.param1)
                 sendMention(op.param1, "Hi ", "thanks for invite me!")
                 cl.sendText(op.param1, wait["message"])
-                cl.sendContact(op.param1, "u20452d2a7b27a3536e1172e4c8d0a8b4")
+                cl.sendContact(op.param1, "u46972f7c43e399c93cf49fad40ae7262")
 
         if op.type == 19:
             if wait["protectkick"]:
@@ -4496,7 +4456,7 @@ def bot(op):
                                         msg.to, "「Dinonaktifkan」\n" + msgs)
 
                         # REVIVE
-                        elif cmd == "revive":
+                        elif cmd == "cek":
                             if msg._from in admin:
                                 try:
                                     cl.inviteIntoGroup(to, [""])
@@ -4931,7 +4891,7 @@ def bot(op):
                                             except BaseException:
                                                 pass
 
-                        elif "Kick! " in msg.text:
+                        elif "bk " in msg.text:
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     key = eval(msg.contentMetadata["MENTION"])
@@ -5322,7 +5282,7 @@ def bot(op):
                                                     wait["Talkblacklist"]))),
                                         )
 
-                        elif cmd == "banlist" or text.lower() == "banlist":
+                        elif cmd == "banlist" or text.lower() == "bc":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     if wait["blacklist"] == {}:
@@ -5363,7 +5323,7 @@ def bot(op):
                                                 contentType=13,
                                             )
 
-                        elif cmd == "clearban" or text.lower() == "clb":
+                        elif cmd == "clearban" or text.lower() == "cb":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     wait["blacklist"] = {}
@@ -5373,7 +5333,7 @@ def bot(op):
                                         msg.to, "Sukses membersihkan" + mc)
 
                         # LEAVE
-                        elif cmd == "?bye":
+                        elif cmd == "bye":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     G = cl.getGroup(msg.to)

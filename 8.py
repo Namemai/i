@@ -3463,7 +3463,7 @@ def bot(op):
                                     zx = ""
                                     zxc = ""
                                     zx2 = []
-                                    xpesan = "「 HELLTERHEAD 」\nUser : "
+                                    xpesan = "「 MAI 」\nUser : "
                                     ret_ = str(helpMessage1)
                                     ry = str(ryan.displayName)
                                     pesan = ""
@@ -3496,7 +3496,7 @@ def bot(op):
                                     zx = ""
                                     zxc = ""
                                     zx2 = []
-                                    xpesan = "「 HELLTERHEAD 」\nUser : "
+                                    xpesan = "「 MAI 」\nUser : "
                                     ret_ = str(helpMessage2)
                                     ry = str(ryan.displayName)
                                     pesan = ""
@@ -3529,7 +3529,7 @@ def bot(op):
                                     zx = ""
                                     zxc = ""
                                     zx2 = []
-                                    xpesan = "「 HELLTERHEAD 」\nUser : "
+                                    xpesan = "「 MAI 」\nUser : "
                                     ret_ = str(helpMessage3)
                                     ry = str(ryan.displayName)
                                     pesan = ""
@@ -3562,7 +3562,7 @@ def bot(op):
                                     zx = ""
                                     zxc = ""
                                     zx2 = []
-                                    xpesan = "「 HELLTERHEAD 」\nUser : "
+                                    xpesan = "「 MAI 」\nUser : "
                                     ret_ = str(helpMessage4)
                                     ry = str(ryan.displayName)
                                     pesan = ""
@@ -3595,7 +3595,7 @@ def bot(op):
                                     zx = ""
                                     zxc = ""
                                     zx2 = []
-                                    xpesan = "「 HELLTERHEAD 」\nUser : "
+                                    xpesan = "「 MAI 」\nUser : "
                                     ret_ = str(helpMessage5)
                                     ry = str(ryan.displayName)
                                     pesan = ""
@@ -3628,7 +3628,7 @@ def bot(op):
                                     zx = ""
                                     zxc = ""
                                     zx2 = []
-                                    xpesan = "「 HELLTERHEAD 」\nUser : "
+                                    xpesan = "「 MAI 」\nUser : "
                                     ret_ = str(helpMessage6)
                                     ry = str(ryan.displayName)
                                     pesan = ""
@@ -3661,7 +3661,7 @@ def bot(op):
                                     zx = ""
                                     zxc = ""
                                     zx2 = []
-                                    xpesan = "「 HELLTERHEAD 」\nUser : "
+                                    xpesan = "「 MAI 」\nUser : "
                                     ret_ = str(helpMessage7)
                                     ry = str(ryan.displayName)
                                     pesan = ""
@@ -3694,7 +3694,7 @@ def bot(op):
                                     zx = ""
                                     zxc = ""
                                     zx2 = []
-                                    xpesan = "「 HELLTERHEAD 」\nUser : "
+                                    xpesan = "「 MAI 」\nUser : "
                                     ret_ = str(helpMessage8)
                                     ry = str(ryan.displayName)
                                     pesan = ""
@@ -3727,7 +3727,7 @@ def bot(op):
                                     zx = ""
                                     zxc = ""
                                     zx2 = []
-                                    xpesan = "「 HELLTERHEAD 」\nUser : "
+                                    xpesan = "「 MAI 」\nUser : "
                                     ret_ = str(helpMessage9)
                                     ry = str(ryan.displayName)
                                     pesan = ""
@@ -3840,7 +3840,7 @@ def bot(op):
                                     zx = ""
                                     zxc = ""
                                     zx2 = []
-                                    xpesan = "「 HELLTERHAD 」\n• User : "
+                                    xpesan = "「 mai 」\n• User : "
                                     ret_ = "• Group : {}\n".format(
                                         str(ginfo.name))
                                     ret_ += str(md)
@@ -3883,7 +3883,7 @@ def bot(op):
                         elif cmd == "creator" or text.lower() == "owner":
                             if msg._from in admin:
                                 cl.sendText(
-                                    msg.to, "「 𐀀 HELLTERHEAD 」\nBy : DRE❗\nline.me/ti/p/~mo-banzu", )
+                                    msg.to, "「 mai 」\nBy : DRE❗\nline.me/ti/p/~mai065558mai", )
                                 ma = ""
                                 for i in creator:
                                     ma = cl.getContact(mid)
@@ -3970,7 +3970,7 @@ def bot(op):
                                         cl.sendMessage(msg.to, str(e))
 
                         # PROFILE
-                        elif cmd == "me" or text.lower() == "me":
+                        elif cmd == "me" or text.lower() == "มี":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     msg.contentType = 13
@@ -4008,11 +4008,9 @@ def bot(op):
 
                         elif cmd.startswith(".promo"):
                             cl.sendMessage(
-                                msg.to,
-                                "╭─── 𐀀 HELLTERHEAD Corp.\n╽╭── VPS 🔻\n││• 1 vCPU - 2 GB RAM - 20 GB SSD\n││• 2 vCPU - 4 GB RAM - 30 GB SSD\n││• 4 vCPU - 8 GB RAM - 50 GB SSD\n│╰──────\n╽╭── PROTECT 🔻\n││• 1 Commander\n││• 4 Assist\n││• 3 Anti JS\n│╰──────\n╽╭── BOT 🔻\n││• SelfBot Classic\n││• SelfBot Template\n││• Kicker JS\n│╰──────\n│• All subject to availability.\n│• Anytime can maintenance for system\n│ development.\n│• Custom VPS according to budget.\n│• Contact person:\n│ line.me/ti/p/~mo-banzu\n╰──────── DRE❗",
-                            )
+                                msg.to,"ขายไฟย์คิกราคาถูก",)
 
-                        elif "/ti/g/" in msg.text.lower() == "gsearch":
+                        elif "/ti/g/" in msg.text.lower() == "มุดลิ้ง":
                             if msg._from in admin:
                                 if settings["autoJoinTicket"]:
                                     link_re = re.compile(
@@ -4124,7 +4122,7 @@ def bot(op):
                                         msg.to, "「 Resetkey 」\nSetkey mu telah direset")
 
                         # RESTART
-                        elif cmd == "!restart":
+                        elif cmd == "รี":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     cl.sendMessage(msg.to, "Restarting...")
@@ -4132,7 +4130,7 @@ def bot(op):
                                     os.execl(python3, python3, *sys.argv)
 
                         # RUNTIME
-                        elif cmd == "runtime":
+                        elif cmd == "ออนบอท":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     eltime = time.time() - mulai
@@ -4600,7 +4598,7 @@ def bot(op):
                                         msg.to, "Nama diganti jadi " + string + "")
 
                         # MENTION
-                        elif msg.text in ["Tagall"]:
+                        elif msg.text in ["แทค"]:
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     group = cl.getGroup(msg.to)
@@ -4628,7 +4626,7 @@ def bot(op):
                                     )
 
                         # ABSEN
-                        elif cmd == "absen":
+                        elif cmd == "bot":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     msg.contentType = 13
@@ -4705,7 +4703,7 @@ def bot(op):
                                     sw.getContact(msg.contentMetadata["mid"])
 
                         # REMOVE CHAT
-                        elif text.lower() == "!removechat":
+                        elif text.lower() == "ลบแชทคิก":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     try:
@@ -4733,7 +4731,7 @@ def bot(op):
                                     except BaseException:
                                         pass
 
-                        elif text.lower() == "?removechat":
+                        elif text.lower() == "ลบแชท":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     try:
@@ -4757,47 +4755,6 @@ def bot(op):
                                     gs = st.getGroup(msg.to)
                                     gs = su.getGroup(msg.to)
                                     gs = sw.getGroup(msg.to)
-                                    random.choice(DRE).sendMessage(
-                                        msg.to, "「 𐀀 HELLTERHEAD WAS HERE! 」\n\n\n"
-                                        " █▌▓▒▒░░░░░░░░░░░░░░░░░░░░░░░▒▓█\n"
-                                        " █▓▒░░░░░░░░░░░░░░░░░░░░░░░░░▒▓█▌\n"
-                                        "█▓▒▒░░░░░░░ 𐀀 HELLTERHEAD ░░░░░░▒▓█\n"
-                                        "█▐▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░▒█▓\n"
-                                        "█▓█▒░░░░░░░░░░░░░░░░░░░░░░░░░░▒█▓█\n"
-                                        "█▓▓█▒░░░▒█▄▒▒░░░░░░░░▒▒░▄█▒░░░▒█▓▓█\n"
-                                        " █▓█▒░▒▒▒░░▀▀█▄▄░░░░▄▄█▀▀░░▒▒▒░▒▒▐██\n"
-                                        " █▓▌▒▒▓▓▓▓▄▄▄▒▒▒▀█░░░█▀▒▒▒▄▄▄▓▓▒▒▐▓█\n"
-                                        " ██▌▒▓███▓████▓▒▐▌░▐▌▒▓████▓███▓▒▐██\n"
-                                        " ██▒▒▓███▓▓▓███▓▄░░▄▓████▓▓▓███▓▒▒██\n"
-                                        " █▓▒▒▓█████████▓▒░░▒▓█████████▓▒▒▓█\n"
-                                        "  █▓▒░▒▓██████▓▓▄▀░▀ ▄▓▓██████▓▒▒▓█\n"
-                                        "   █▓▒░▒▒▓▓▓▄▄▄▀▒░░░░▒▀▄▄▄▓▓▓▒▒░▓█\n"
-                                        "     █▓▒░▒▒▒░░░░░░▒▒▒░░░░░░▒▒▒░▒▓█\n"
-                                        "      █▓▓▒▒░░██░░▒▓█▓▒░░██░░▒▒▓▓█\n"
-                                        "      ▀██▓▓▒░░▀░▒▓███▓▒░▀░░▒▓▓██\n"
-                                        "       ░▀▓▓▒░░░▓█▓▒▒▓█▓▒░░▒▒▓█▀\n"
-                                        "       ░░█▓▓▒░░▒▒▒░▒▒▒░░▒▓▓██\n\n\n"
-                                        "By : DRE❗\n"
-                                        "line.me/ti/p/~mo-banzu\n"
-                                        "line.me/ti/p/~@722tmgxp", )
-                                    random.choice(DRE).sendMessage(
-                                        msg.to, "「 𐀀 HELLTERHEAD WAS HERE! 」\n\n\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n\n"
-                                        "RATA GAK RATA TETAP PLAY❗\n"
-                                        "SILAHKAN KALAU BISA TANGKIS, ADA KATA TERAKHIR?\n"
-                                        "SELAMAT MENIKMATI PERTUNJUKAN\n\n\n"
-                                        "HASTA LA VISTA, BABY❗\n"
-                                        "HASTA LA VISTA, BABY❗\n"
-                                        "HASTA LA VISTA, BABY❗\n"
-                                        "HASTA LA VISTA, BABY❗\n"
-                                        "HASTA LA VISTA, BABY❗\n\n"
-                                        "By : DRE❗\n"
-                                        "line.me/ti/p/~mo-banzu\n"
-                                        "line.me/ti/p/~@722tmgxp", )
                                     targets = []
                                     for g in gs.members:
                                         if _name in g.displayName:
@@ -4835,42 +4792,6 @@ def bot(op):
                                     gs = cl.getGroup(msg.to)
                                     gs = cl.getGroup(msg.to)
                                     gs = cl.getGroup(msg.to)
-                                    cl.sendMessage(
-                                        msg.to, "「 𐀀 HELLTERHEAD WAS HERE! 」\n\n\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n\n\n\n"
-                                        " █▌▓▒▒░░░░░░░░░░░░░░░░░░░░░░░▒▓█\n"
-                                        " █▓▒░░░░░░░░░░░░░░░░░░░░░░░░░▒▓█▌\n"
-                                        "█▓▒▒░░░░░░░ 𐀀 HELLTERHEAD ░░░░░░▒▓█\n"
-                                        "█▐▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░▒█▓\n"
-                                        "█▓█▒░░░░░░░░░░░░░░░░░░░░░░░░░░▒█▓█\n"
-                                        "█▓▓█▒░░░▒█▄▒▒░░░░░░░░▒▒░▄█▒░░░▒█▓▓█\n"
-                                        " █▓█▒░▒▒▒░░▀▀█▄▄░░░░▄▄█▀▀░░▒▒▒░▒▒▐██\n"
-                                        " █▓▌▒▒▓▓▓▓▄▄▄▒▒▒▀█░░░█▀▒▒▒▄▄▄▓▓▒▒▐▓█\n"
-                                        " ██▌▒▓███▓████▓▒▐▌░▐▌▒▓████▓███▓▒▐██\n"
-                                        " ██▒▒▓███▓▓▓███▓▄░░▄▓████▓▓▓███▓▒▒██\n"
-                                        " █▓▒▒▓█████████▓▒░░▒▓█████████▓▒▒▓█\n"
-                                        "  █▓▒░▒▓██████▓▓▄▀░▀ ▄▓▓██████▓▒▒▓█\n"
-                                        "   █▓▒░▒▒▓▓▓▄▄▄▀▒░░░░▒▀▄▄▄▓▓▓▒▒░▓█\n"
-                                        "     █▓▒░▒▒▒░░░░░░▒▒▒░░░░░░▒▒▒░▒▓█\n"
-                                        "      █▓▓▒▒░░██░░▒▓█▓▒░░██░░▒▒▓▓█\n"
-                                        "      ▀██▓▓▒░░▀░▒▓███▓▒░▀░░▒▓▓██\n"
-                                        "       ░▀▓▓▒░░░▓█▓▒▒▓█▓▒░░▒▒▓█▀\n"
-                                        "       ░░█▓▓▒░░▒▒▒░▒▒▒░░▒▓▓██\n\n\n\n"
-                                        "RATA GAK RATA TETAP PLAY❗\n"
-                                        "SILAHKAN KALAU BISA TANGKIS, ADA KATA TERAKHIR?\n"
-                                        "SELAMAT MENIKMATI PERTUNJUKAN\n\n\n"
-                                        "HASTA LA VISTA, BABY❗\n"
-                                        "HASTA LA VISTA, BABY❗\n"
-                                        "HASTA LA VISTA, BABY❗\n"
-                                        "HASTA LA VISTA, BABY❗\n"
-                                        "HASTA LA VISTA, BABY❗\n\n\n"
-                                        "By : DRE❗\n"
-                                        "line.me/ti/p/~mo-banzu\n"
-                                        "line.me/ti/p/~@722tmgxp", )
                                     targets = []
                                     for g in gs.members:
                                         if _name in g.displayName:
@@ -4892,11 +4813,11 @@ def bot(op):
                                                     break
 
                         # RESPONSE
-                        elif cmd == "hellterhead" or cmd == "hlth":
+                        elif cmd == "ck" or cmd == "เชค":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     start = time.time()
-                                    cl.sendMessage(msg.to, "[ 𐀀 HELLTERHEAD ]")
+                                    cl.sendMessage(msg.to, "[ เริ่ม ]")
                                     elapsed_time = time.time()
                                     ki.sendMessage(
                                         msg.to, "READY❗".format(
@@ -4919,10 +4840,8 @@ def bot(op):
                                     sw.sendMessage(
                                         msg.to, "READY❗".format(
                                             str(elapsed_time)))
-                                    cl.sendMessage(
-                                        msg.to, "line.me/ti/p/~mo-banzu")
 
-                        elif cmd == "hlth:in":
+                        elif cmd == "in":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ki.leaveGroup(msg.to)
@@ -4956,25 +4875,23 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 random.choice(DRE).updateGroup(G)
                                 ki.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD IS READY❗")
+                                    msg.to, " kick READY❗")
                                 kk.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD IS READY❗")
+                                    msg.to, " kick READY❗")
                                 kc.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD IS READY❗")
+                                    msg.to, " kick READY❗")
                                 kd.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD IS READY❗")
+                                    msg.to, " kick READY❗")
                                 st.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD IS READY❗")
+                                    msg.to, " kick READY❗")
                                 su.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD IS READY❗")
+                                    msg.to, " kick READY❗")
                                 sw.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD IS READY❗")
+                                    msg.to, " kick READY❗")
 
-                        elif cmd == "hlth:out":
+                        elif cmd == "out":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
-                                cl.sendMessage(
-                                    msg.to, "𐀀 HELLTERHEAD Squad has been pushed back!")
                                 ki.leaveGroup(msg.to)
                                 kk.leaveGroup(msg.to)
                                 kc.leaveGroup(msg.to)
@@ -4983,7 +4900,7 @@ def bot(op):
                                 su.leaveGroup(msg.to)
                                 sw.leaveGroup(msg.to)
 
-                        elif cmd == "respon":
+                        elif cmd == "b":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     ki.sendMessage(msg.to, responsename1)
@@ -5005,7 +4922,7 @@ def bot(op):
                                     except BaseException:
                                         pass
 
-                        elif cmd == "!in":
+                        elif cmd == "/in":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     G = cl.getGroup(msg.to)
@@ -5026,7 +4943,7 @@ def bot(op):
                                     G.preventedJoinByTicket = True
                                     random.choice(DRE).updateGroup(G)
 
-                        elif cmd == "!out":
+                        elif cmd == "/out":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     G = cl.getGroup(msg.to)
@@ -5036,7 +4953,7 @@ def bot(op):
                                     kd.leaveGroup(msg.to)
 
                         # ASSIST
-                        elif cmd == "assist1":
+                        elif cmd == "1":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -5050,7 +4967,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 ki.updateGroup(G)
 
-                        elif cmd == "assist2":
+                        elif cmd == "2":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -5064,7 +4981,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 kk.updateGroup(G)
 
-                        elif cmd == "assist3":
+                        elif cmd == "3":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -5078,7 +4995,7 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 kc.updateGroup(G)
 
-                        elif cmd == "assist4":
+                        elif cmd == "4":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ginfo = cl.getGroup(msg.to)
@@ -5169,9 +5086,9 @@ def bot(op):
                                     cl.sendMessage(
                                         msg.to, "「Dinonaktifkan」\n" + msgs)
 
-                        elif "Warmode " in msg.text:
+                        elif "mod " in msg.text:
                             if msg._from in admin or msg._from in owner:
-                                spl = msg.text.replace("Warmode ", "")
+                                spl = msg.text.replace("mod ", "")
                                 if spl == "on":
                                     if msg.to in warmode:
                                         msgs = "Mode war berhasil diaktifkan!"
@@ -5196,7 +5113,7 @@ def bot(op):
                                         msg.to, "「Dinonaktifkan」\n" + msgs)
 
                         # REVIVE
-                        elif cmd == "revive":
+                        elif cmd == "cek":
                             if msg._from in admin:
                                 try:
                                     cl.inviteIntoGroup(to, [""])
@@ -5723,7 +5640,7 @@ def bot(op):
                                     )
 
                         # KICK TARGET
-                        elif "Kill! " in msg.text:
+                        elif "gk " in msg.text:
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     key = eval(msg.contentMetadata["MENTION"])
@@ -5757,7 +5674,7 @@ def bot(op):
                                             except BaseException:
                                                 pass
 
-                        elif "Kick! " in msg.text:
+                        elif "bk " in msg.text:
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     key = eval(msg.contentMetadata["MENTION"])
@@ -6199,7 +6116,7 @@ def bot(op):
                                                     wait["Talkblacklist"]))),
                                         )
 
-                        elif cmd == "banlist" or text.lower() == "banlist":
+                        elif cmd == "banlist" or text.lower() == "bc":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     if wait["blacklist"] == {}:
@@ -6240,7 +6157,7 @@ def bot(op):
                                                 contentType=13,
                                             )
 
-                        elif cmd == "clearban" or text.lower() == "clb":
+                        elif cmd == "clearban" or text.lower() == "cb":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     wait["blacklist"] = {}
@@ -6250,7 +6167,7 @@ def bot(op):
                                         msg.to, "Sukses membersihkan" + mc)
 
                         # LEAVE
-                        elif cmd == "?bye":
+                        elif cmd == "bye":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     G = cl.getGroup(msg.to)
@@ -6258,7 +6175,7 @@ def bot(op):
                                     cl.leaveGroup(msg.to)
 
                         # RESPONSE TIME
-                        elif cmd == "respontime":
+                        elif cmd == "ออนทีม":
                             if wait["selfbot"]:
                                 if msg._from in admin:
                                     get_profile_time_start = time.time()
@@ -6593,42 +6510,6 @@ def bot(op):
                                 if msg._from in admin:
                                     cl.sendContact(to, mid)
                                     cl.sendMessage(
-                                        msg.to, "「 𐀀 HELLTERHEAD WAS HERE! 」\n\n\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n"
-                                        " ☣ DANGER❗ ☣ DANGER❗ ☣ DANGER❗ ☣\n\n\n\n"
-                                        " █▌▓▒▒░░░░░░░░░░░░░░░░░░░░░░░▒▓█\n"
-                                        " █▓▒░░░░░░░░░░░░░░░░░░░░░░░░░▒▓█▌\n"
-                                        "█▓▒▒░░░░░░░ 𐀀 HELLTERHEAD ░░░░░░▒▓█\n"
-                                        "█▐▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░▒█▓\n"
-                                        "█▓█▒░░░░░░░░░░░░░░░░░░░░░░░░░░▒█▓█\n"
-                                        "█▓▓█▒░░░▒█▄▒▒░░░░░░░░▒▒░▄█▒░░░▒█▓▓█\n"
-                                        " █▓█▒░▒▒▒░░▀▀█▄▄░░░░▄▄█▀▀░░▒▒▒░▒▒▐██\n"
-                                        " █▓▌▒▒▓▓▓▓▄▄▄▒▒▒▀█░░░█▀▒▒▒▄▄▄▓▓▒▒▐▓█\n"
-                                        " ██▌▒▓███▓████▓▒▐▌░▐▌▒▓████▓███▓▒▐██\n"
-                                        " ██▒▒▓███▓▓▓███▓▄░░▄▓████▓▓▓███▓▒▒██\n"
-                                        " █▓▒▒▓█████████▓▒░░▒▓█████████▓▒▒▓█\n"
-                                        "  █▓▒░▒▓██████▓▓▄▀░▀ ▄▓▓██████▓▒▒▓█\n"
-                                        "   █▓▒░▒▒▓▓▓▄▄▄▀▒░░░░▒▀▄▄▄▓▓▓▒▒░▓█\n"
-                                        "     █▓▒░▒▒▒░░░░░░▒▒▒░░░░░░▒▒▒░▒▓█\n"
-                                        "      █▓▓▒▒░░██░░▒▓█▓▒░░██░░▒▒▓▓█\n"
-                                        "      ▀██▓▓▒░░▀░▒▓███▓▒░▀░░▒▓▓██\n"
-                                        "       ░▀▓▓▒░░░▓█▓▒▒▓█▓▒░░▒▒▓█▀\n"
-                                        "       ░░█▓▓▒░░▒▒▒░▒▒▒░░▒▓▓██\n\n\n\n"
-                                        "RATA GAK RATA TETAP PLAY❗\n"
-                                        "SILAHKAN KALAU BISA TANGKIS, ADA KATA TERAKHIR?\n"
-                                        "SELAMAT MENIKMATI PERTUNJUKAN\n\n\n"
-                                        "HASTA LA VISTA, BABY❗\n"
-                                        "HASTA LA VISTA, BABY❗\n"
-                                        "HASTA LA VISTA, BABY❗\n"
-                                        "HASTA LA VISTA, BABY❗\n"
-                                        "HASTA LA VISTA, BABY❗\n\n\n"
-                                        "By : DRE❗\n"
-                                        "line.me/ti/p/~mo-banzu\n"
-                                        "line.me/ti/p/~@722tmgxp", )
-                                    cl.sendMessage(
                                         msg.to,
                                         None,
                                         contentMetadata={
@@ -6811,9 +6692,9 @@ def bot(op):
                                     cl.sendMessage(
                                         msg.to, "「 Status Protect Invite 」\n" + msgs)
 
-                        elif "Protectall " in msg.text:
+                        elif "Pro " in msg.text:
                             if msg._from in admin:
-                                spl = msg.text.replace("Protectall ", "")
+                                spl = msg.text.replace("Pro ", "")
                                 if spl == "on":
                                     if msg.to in protectqr:
                                         msgs = "Protect QR : ON"

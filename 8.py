@@ -331,10 +331,10 @@ print("BOT-7 = " + Ymid)
 print("BOT-8 = " + Zmid)
 print("\n\nBY,MAI READY❗\n\n")
 
-creator = ["u46972f7c43e399c93cf49fad40ae7262"]
-owner = ["u46972f7c43e399c93cf49fad40ae7262"]
-admin = ["u46972f7c43e399c93cf49fad40ae7262"]
-staff = ["u46972f7c43e399c93cf49fad40ae7262"]
+creator = ["u46972f7c43e399c93cf49fad40ae7262","u094af42f3bef6bac2e66ea53071d01b8"]
+owner = ["u46972f7c43e399c93cf49fad40ae7262","u094af42f3bef6bac2e66ea53071d01b8"]
+admin = ["u46972f7c43e399c93cf49fad40ae7262","u094af42f3bef6bac2e66ea53071d01b8"]
+staff = ["u46972f7c43e399c93cf49fad40ae7262","u094af42f3bef6bac2e66ea53071d01b8"]
 DRE = [cl, ki, kk, kc, kd, st, su, sw]
 ghost = [st, su, sw]
 Bots = [mid, Amid, Bmid, Cmid, Dmid, Xmid, Ymid, Zmid]

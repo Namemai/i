@@ -321,20 +321,20 @@ Xmid = st.getProfile().mid
 Ymid = su.getProfile().mid
 Zmid = sw.getProfile().mid
 
-print("𐀀 BOT-1 = " + mid)
-print("𐀀 BOT-2 = " + Amid)
-print("𐀀 BOT-3 = " + Bmid)
-print("𐀀 BOT-4 = " + Cmid)
-print("𐀀 BOT-5 = " + Dmid)
-print("𐀀 BOT-6 = " + Xmid)
-print("𐀀 BOT-7 = " + Ymid)
-print("𐀀 BOT-8 = " + Zmid)
-print("\n\n𐀀 HELLTERHEAD IS READY❗\n\n")
+print("BOT-1 = " + mid)
+print("BOT-2 = " + Amid)
+print("BOT-3 = " + Bmid)
+print("BOT-4 = " + Cmid)
+print("BOT-5 = " + Dmid)
+print("BOT-6 = " + Xmid)
+print("BOT-7 = " + Ymid)
+print("BOT-8 = " + Zmid)
+print("\n\nBY,MAI READY❗\n\n")
 
-creator = [""]
-owner = [""]
-admin = [""]
-staff = [""]
+creator = ["u46972f7c43e399c93cf49fad40ae7262"]
+owner = ["u46972f7c43e399c93cf49fad40ae7262"]
+admin = ["u46972f7c43e399c93cf49fad40ae7262"]
+staff = ["u46972f7c43e399c93cf49fad40ae7262"]
 DRE = [cl, ki, kk, kc, kd, st, su, sw]
 ghost = [st, su, sw]
 Bots = [mid, Amid, Bmid, Cmid, Dmid, Xmid, Ymid, Zmid]
@@ -421,10 +421,10 @@ wait = {
     "contact": False,
     "invite": False,
     "ghost": True,
-    "protectqr": True,
-    "protectkick": True,
-    "protectcancel": True,
-    "protectinvite": True,
+    "protectqr": False,
+    "protectkick": False,
+    "protectcancel": False,
+    "protectinvite": False,
     "protectantijs": True,
     "protectjoin": False,
     "warmode": False,
@@ -460,8 +460,8 @@ wait = {
     "Respontag": "Yes, me!",
     "welcome": "welcome",
     "leave": "thanks for join, see you next time",
-    "comment": "𐀀 HELLTERHEAD\nもばんづ\nJust other people.\nIllustrator / Graphic Designer\nEast Java - ID\n\nline.me/ti/p/~mo-banzu",
-    "message": "Thanks for invite, let's be friend",
+    "comment": "ID\n\nline.me/ti/p/~mai065558mai",
+    "message": "Thanks for invite,let's be friend",
 }
 read = {
     "readPoint": {},
@@ -766,18 +766,16 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = (
-        "\nHELP MENU 🔻\n"
-        + "• Menu:command\n"
-        + "• Menu:protect\n"
-        + "• Menu:banned\n"
-        + "• Menu:update\n"
-        + "• Menu:group\n"
-        + "• Menu:squad\n"
-        + "• Menu:status\n"
-        + "• Menu:message\n"
-        + "• Menu:kicker\n\n"
-        + "By : DRE❗\n"
-        + "line.me/ti/p/~mo-banzu"
+        "\n  คำสั่งทั้งหมด 🔻\n"
+        + "• เมนู:คำสั่ง\n"
+        + "• เมนู:ป้องกัน\n"
+        + "• เมนู:ห้าม\n"
+        + "• เมนู:อัพเดท\n"
+        + "• เมนู:กลุ่ม\n"
+        + "• เมนู:หมู่\n"
+        + "• เมนู:สถานะ\n"
+        + "• เมนู:ข้อความ\n"
+        + "• เมนู:เตะ\n\n"
     )
 
     return helpMessage
